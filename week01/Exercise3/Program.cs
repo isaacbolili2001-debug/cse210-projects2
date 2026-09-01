@@ -12,7 +12,7 @@ class Program
         string input = Console.ReadLine();
         int guess = int.Parse(input);
 
-
+        int attempts = 1;
 
 
         while (guess != number)
@@ -29,9 +29,10 @@ class Program
             Console.WriteLine("Please guess again: ");
             input = Console.ReadLine();
             guess = int.Parse(input);
+            attempts++;
         }
 
-        Console.WriteLine($"Congratulations! You guessed the correct number: {number}");
+        Console.WriteLine($"Congratulations! You guessed the correct number: {number} in {attempts} attempts.");
 
     }
 }
