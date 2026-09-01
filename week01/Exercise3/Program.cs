@@ -6,9 +6,9 @@ class Program
     {
         Console.WriteLine("Hello World! This is the Exercise3 Project.");
         Random randomGenerator = new Random();
-        int number = randomGenerator.Next(1, 11); // Generates a random number between 1 and 10
+        int number = randomGenerator.Next(1, 101); // Generates a random number between 1 and 100
 
-        Console.WriteLine("Please guess a number between 1 and 10: ");
+        Console.WriteLine("Please guess a number between 1 and 100: ");
         string input = Console.ReadLine();
         int guess = int.Parse(input);
 
