@@ -34,7 +34,7 @@ public class Journal
             {
                 foreach (var entry in _entries)
                 {
-                    outputFile.WriteLine($"{entry.PromptText}|{entry.EntryText}|{entry.Date}");
+                    outputFile.WriteLine($"{entry.Date}|{entry.PromptText} | {entry.EntryText}");
                 }
             }
             Console.WriteLine($"Journal entries saved to '{file}' successfully.");

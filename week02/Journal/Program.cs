@@ -33,7 +33,7 @@ class Program
                 DateTime currentDate = DateTime.Now;
                 string dateText = currentDate.ToString();
 
-                Entry newEntry = new Entry(prompt, entryText, dateText);
+                Entry newEntry = new Entry(dateText, prompt, entryText);
                 theJournal.AddEntry(newEntry);
             }
             else if (choice == 2)
