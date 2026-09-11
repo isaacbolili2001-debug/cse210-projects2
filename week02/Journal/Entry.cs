@@ -19,7 +19,7 @@ public class Entry
 
     public Entry(string promptText, string entryText)
     {
-        _date = DateTime.Now.ToString("yyyy-MM-dd");
+        _date = DateTime.Now.ToString("yyyy/MM/dd");
         _promptText = promptText;
         _entryText = entryText;
     }
