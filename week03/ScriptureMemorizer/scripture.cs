@@ -12,7 +12,7 @@ public class Scripture
         _words = new List<Word>();
 
         string[] splitText = text.Split(' ');
-        
+
         foreach (string wordString in splitText)
         {
             _words.Add(new Word(wordString));
