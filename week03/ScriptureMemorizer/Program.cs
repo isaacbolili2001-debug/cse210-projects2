@@ -30,7 +30,7 @@ class Program
 
             userInput = userInput.Trim().ToLower();
 
-            if (userInput != "qui")
+            if (userInput != "quit")
             {
                 scripture.HideRandomWords(3);
             }
