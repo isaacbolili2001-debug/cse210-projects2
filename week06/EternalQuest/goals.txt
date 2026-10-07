@@ -1,0 +1,3 @@
+132
+SimpleGoal:read one verse per day,it'll help me improve my understanding in bible,50|True
+CheckListGoal:earn $10 per day,to help me get married,30, 22, 2, 2
