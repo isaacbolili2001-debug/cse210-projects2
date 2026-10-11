@@ -245,7 +245,7 @@ namespace EternalQuest
                     }
                     else if (type == "ChecklistGoal")
                     {
-                        _goals.Add(new CheckListGoal(values[0], values[1], int.Parse(values[2]), int.Parse(values[3]), int.Parse(values[4]), int.Parse(values[5])));
+                        _goals.Add(new CheckListGoal(values[0], values[1], int.Parse(values[2]), int.Parse(values[4]), int.Parse(values[3]), int.Parse(values[5])));
                     }
                 }
                 Console.WriteLine("Goals loaded successfully.");
